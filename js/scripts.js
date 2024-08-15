@@ -2,7 +2,7 @@ function validacao(){
     var email = document.querySelector('#email').value;
     var senha = document.querySelector('#senha').value;
     if(email === "Minha Loirinha" && senha === "210423"){
-        window.location.href ="file:///C:/Users/Leonardo/Desktop/GIGI%20E%20LELEO%202.0/Pagina.html"
+        window.location.href ="Pagina.html"
     } else {
         alert("Usuário ou senha incorretos");
     }
